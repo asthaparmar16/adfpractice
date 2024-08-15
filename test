@@ -1,0 +1,32 @@
+{
+    "name": "SamplePipeline",
+    "properties": {
+        "activities": [
+            {
+                "name": "CopyActivity",
+                "type": "Copy",
+                "inputs": [
+                    {
+                        "referenceName": "BlobDataset",
+                        "type": "DatasetReference"
+                    }
+                ],
+                "outputs": [
+                    {
+                        "referenceName": "SqlDataset",
+                        "type": "DatasetReference"
+                    }
+                ],
+                "typeProperties": {
+                    "source": {
+                        "type": "BlobSource"
+                    },
+                    "sink": {
+                        "type": "SqlSink"
+                    }
+                }
+            }
+        ],
+        "description": "Sample pipeline that copies data from Blob Storage to SQL Database."
+    }
+}
