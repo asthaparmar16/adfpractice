@@ -1,0 +1,9 @@
+{
+	"name": "acadf-hntv",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "abea801a-1bb0-4ac2-bee6-957c7c9198b6",
+		"tenantId": "84f1e4ea-8554-43e1-8709-f0b8589ea118"
+	}
+}
