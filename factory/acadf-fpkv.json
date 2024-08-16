@@ -1,0 +1,9 @@
+{
+	"name": "acadf-fpkv",
+	"location": "westus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ed5058d4-19a7-4fa5-9885-45349873c35c",
+		"tenantId": "84f1e4ea-8554-43e1-8709-f0b8589ea118"
+	}
+}
