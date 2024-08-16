@@ -4,6 +4,9 @@
 	"parameters": {
 		"factoryName": {
 			"value": "acadf-jy23"
+		},
+		"AzureBlobStorageLS_connectionString": {
+			"value": ""
 		}
 	}
 }
